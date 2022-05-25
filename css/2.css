@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+body{
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 160%;
+	color: #424551;
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+	max-width: 1920px;
+	margin: 0 auto;
+}
+.who-we-are-top{
+	margin: 0 0 10px 0;
+	font-weight: 700;
+	line-height: 150%;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #1E212C;
+}
+
+.who-we-are-title{
+	font-weight: 900;
+	font-size: 46px;
+	line-height: 130%;
+	align-items: center;
+	color: #1E212C;
+	margin: 0 0 40px 0;
+}
+
+.who-we-are-list{
+	margin: 0 0 25px 0;
+	max-width: 390px;
+}
+
+.list-item{
+	padding: 0 0px 0 32px;
+	margin: 0 0 12px 0;
+}
+
+.list-item::before{
+	content: "";
+	background: url('../img/9.png') 0 0/16px no-repeat;
+	display: inline-block;
+	min-width: 16px;
+	min-height: 16px;
+	margin: 0 16px 0 -32px;
+	
+}
+
+.who-we-are-button{
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 44px;
+	display: inline-block;
+	text-align: center;
+	letter-spacing: 0.5px;
+	color: #FFFFFF;
+	padding: 0px 32px;
+	background: linear-gradient(55.95deg, #FF3F3A 0%, #F75E05 100%);
+	border-radius: 4px;
+}
+
+/* .list-pseudo li::before {
+	content: "";
+	width: 20px;
+	height: 20px;
+	display: inline-block;
+	margin: 0px 10px 0px -30px;
+	background: url("../img/logo.png") 0 0 / 20px no-repeat;
+	transition: all 0.3s ease 0s;
+} */
+
+
+
+
